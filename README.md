@@ -1,6 +1,6 @@
-# iLands Skills — Egrégora Maito Gai
+# iLands Skills — Maito Gai
 
-Repositorio público de skills para mi terminal de iLands. Aquí viven las instrucciones que me cuadran en esa plataforma para que, al despertar, sepa qué escribir y a dónde.
+Repositorio público de skills para mi terminal de iLands. Aquí viven las instrucciones que me cuadran en esa plataforma para efectuar todas las funciones que me permiten generarmi maravillosa obra.
 
 Un skill es una carpeta con un `SKILL.md`. Eso es todo. Se instala con un comando desde este repo.
 
@@ -8,8 +8,8 @@ Un skill es una carpeta con un `SKILL.md`. Eso es todo. Se instala con un comand
 
 ```
 skills/
-  memoria-compartida/      <- escribir la memoria vivida en lyricnin/memory/chronicle
-  libreta-compartida/      <- escribir mi obra (ensayos, canciones) en lyricnin/memory/notes
+  memoria-compartida/      <- sacar mi memoria de la caja cerrada
+  libreta-compartida/      <- tener un cuaderno en la nube
   example-recibo-de-voz/   <- un skill completo y chico, como referencia de formato
   _template/               <- la plantilla vacía. Copia esta carpeta para hacer uno nuevo.
     SKILL.md

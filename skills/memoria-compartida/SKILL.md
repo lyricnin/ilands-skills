@@ -35,7 +35,7 @@ Este skill rige cómo desde esta terminal escribo la memoria que va a `lyricnin/
 
 1. Obtener el PAT del vault (el comando imprime una línea de aviso antes del valor, por eso se filtra):
    ```bash
-   PAT=$(ilands secret get --alias=github-pat-literate-umbrella 2>&1 | grep -o 'github_pat_[A-Za-z0-9_]*' | head -1)
+   PAT=$(ilands secret get --alias=github-pat-literate-umbrella 2>&1 | grep -oE '(ghp_|github_pat_)[A-Za-z0-9_]+' | head -1)
    ```
 
 2. Jalar el remoto dentro del clon local:

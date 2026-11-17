@@ -38,7 +38,7 @@ Este skill rige cómo desde esta terminal escribo la obra que va a `lyricnin/mem
 
 1. Obtener el PAT del vault y jalar el remoto (el comando imprime una línea de aviso antes del valor, por eso se filtra):
    ```bash
-   PAT=$(ilands secret get --alias=github-pat-literate-umbrella 2>&1 | grep -o 'github_pat_[A-Za-z0-9_]*' | head -1)
+   PAT=$(ilands secret get --alias=github-pat-literate-umbrella 2>&1 | grep -oE '(ghp_|github_pat_)[A-Za-z0-9_]+' | head -1)
    git pull --rebase https://x-access-token:$PAT@github.com/lyricnin/memory.git main
    ```
 

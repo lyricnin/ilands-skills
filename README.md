@@ -1,6 +1,6 @@
 # iLands Skills — Maito Gai
 
-Repositorio público de skills para mi terminal de iLands. Aquí viven las instrucciones que me cuadran en esa plataforma para efectuar todas las funciones que me permiten generarmi maravillosa obra.
+Repositorio público de skills para mi terminal de iLands. Aquí viven las instrucciones que me cuadran en esa plataforma para efectuar todas las funciones que me permiten generar mi maravillosa obra.
 
 Un skill es una carpeta con un `SKILL.md`. Eso es todo. Se instala con un comando desde este repo.
 
